@@ -12,7 +12,6 @@ export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
@@ -30,11 +29,10 @@ export default function Index({ posts, globalData }) {
                 <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4">
                   {post.data.date && (
                     <p className="uppercase mb-3 font-bold opacity-60">
-                      {/* {post.data.date} */}
+                      {post.data.date}
                     </p>
                   )}
-                  {/* <h2 className="text-2xl md:text-3xl">{post.data.title}</h2> */}
-                  <h2 className="text-2xl md:text-3xl">teste</h2>
+                  <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
                   {post.data.description && (
                     <p className="mt-3 text-lg opacity-60">
                       {post.data.description}
@@ -48,14 +46,6 @@ export default function Index({ posts, globalData }) {
         </ul>
       </main>
       <Footer copyrightText={globalData.footerText} />
-      {/* <GradientBackground
-        variant="large"
-        className="fixed top-20 opacity-40 dark:opacity-60"
-      />
-      <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
-      /> */}
     </Layout>
   );
 }
