@@ -1,7 +1,5 @@
 export const getGlobalData = () => {
-  const name = process.env.BLOG_NAME
-    ? decodeURI(process.env.BLOG_NAME)
-    : 'Centralizando';
+  const name = 'Centralizando';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
     : 'Centralizando: A sua fonte centralizada de Notícias';
