@@ -13,7 +13,7 @@
     "url": "https://github.com/netlify-templates/nextjs-blog-theme/issues"
   },
   "scripts": {
-    "dev": "next run dev",
+    "dev": "npm run dev",
     "dev:watch": "next-remote-watch ./posts",
     "build": "next build",
     "start": "next start",
