@@ -6,10 +6,12 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
-
+    const tags = 'centralizando site, centralizando, centralizando.site, centralizando site de notícias, centralizando site oficial, centralizando brasil'
+    const favicon = 'https://i.imgur.com/X5lpQrM.jpeg'
   return {
     name,
     blogTitle,
     footerText,
+    tags,
   };
 };
