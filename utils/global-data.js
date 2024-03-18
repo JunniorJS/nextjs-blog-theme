@@ -13,5 +13,6 @@ export const getGlobalData = () => {
     blogTitle,
     footerText,
     tags,
+    favicon,
   };
 };

@@ -7,8 +7,8 @@ export default function SEO({ title, description }) {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
-      <meta name="keywords" content={globalData.footerText} />
-      <link rel="icon" href={favicon} type="image/x-icon" />
+      <meta name="keywords" content={globalData.tags} />
+      <link rel="icon" href={globalData.favicon} type="image/x-icon" />
     </Head>
   );
 }
