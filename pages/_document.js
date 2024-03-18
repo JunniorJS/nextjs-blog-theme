@@ -10,7 +10,8 @@ class MyDocument extends Document {
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
         >
           <Main />
-          <NextScript />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>          <NextScript />
         </body>
       </Html>
     );
