@@ -7,8 +7,8 @@ export default function SEO({ title, description }) {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
-      <meta name="keywords" content={globalData.tags} />
-      <link rel="icon" href={globalData.favicon} type="image/x-icon" />
+      <meta name="keywords" content={'centralizando site, centralizando, centralizando.site, centralizando site de notícias, centralizando site oficial, centralizando brasil'} />
+      <link rel="icon" href={'https://i.imgur.com/X5lpQrM.jpeg'} type="image/x-icon" />
     </Head>
   );
 }
