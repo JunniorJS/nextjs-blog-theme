@@ -46,7 +46,7 @@ export default function PostPage({
             {frontMatter.title}
           </h1>
           {frontMatter.description && (
-            <p className="text-xl mb-4">{frontMatter.description}</p>
+            <p className="text-xl mb-4 text-center">{frontMatter.description}</p>
           )}
         </header>
         <main>
